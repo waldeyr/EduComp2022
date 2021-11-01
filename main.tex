@@ -50,11 +50,12 @@
 %%%%% ABSTRACT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 Computer Science currently allows us to produce, store, and analyze a massive volume of data, and it is for these capacities, a highly demanded area whose training is essential. 
-The training itineraries in this area need to balance technical excellence and social relevance. 
-In this sense, the pedagogical projects of the courses contain interpretations of the demands of the world of work and intentions to supply them from an appropriate curricular model. 
-This work presents a survey and documentary analysis of the curricular models of courses in the computing area of the Federal Institute of Science and Technology of Goiás (IFG) to verify the characteristics of their curricular proposals. 
-Pedagogical projects from all courses in the IFG computing area were analyzed. 
-IFG offers these courses in the municipalities of Anápolis, Goiânia, Formosa, Inhumas, Jataí, Luziânia and Uruaçu. Considering the selected characteristics and the economic potentials described by the State Secretariat for Development and Innovation in Goiás, we present an overview of the compliance for the IFG's courses to these selected characteristics and the development profile according to the governmental design for that region.
+Due to this ability to permeate the productive sector of society, the Computer Science-related courses curricula need to balance technical excellence and social relevance. 
+In this sense, the curricula contain interpretations of the world of work demands and intentions to supply them with an appropriate structure. 
+This work presents a documentary analysis and evaluation of the Computer Science-related courses curricula of the Federal Institute of Science and Technology of Goiás (IFG).
+IFG offers these courses in the municipalities of Anápolis, Goiânia, Formosa, Inhumas, Jataí, Luziânia and Uruaçu. 
+We analyzed curricula from these courses considering regulatory, pedagogical, and geographic aspects to check the balance between professional and technological formation and social relevance demands.
+The results present an overview of the intrinsic and external relationships of the curricula of these courses.
 \end{abstract}
 
 %%
@@ -104,7 +105,7 @@ In this scenario, considering the need for continuous updating of courses due to
 Do the IFG's CS-related undergraduate courses curricula converge with their purpose? 
 Do they are articulated with the productive sectors and with society in the region where they are offered?
 In this work, we investigated whether and how the IFG's undergraduate CS-related courses align themselves with the demands of the region where they are offered.
-We did a documentary analysis of pedagogical projects and sociodemographic profiles previously drawn up by government agencies to achieve this objective.
+We did a documentary analysis of curricula and sociodemographic profiles previously drawn up by government agencies to achieve this objective.
 A more comprehensive examination would show that didactic analyses and experiments such those presented in ~\cite{educompA},~\cite{ duran2018towards}, and \cite{massa2021docentes}, can directly impact skills for developing curriculum competencies in the disciplines, then merely analyze their syllabus and workload.
 However, the scope of this work is limited to document analysis and the interpretation of such results.
 
@@ -181,9 +182,10 @@ We used the DR due to the need to organize dispersed information, giving it new 
 The DR on the IFG courses curricula and the sociodemographic data analysis provided a way reveal elements underlined in explicit content beyond the appearances and functional objectives of what is presented, allowing an accurate description for quantitative or qualitative content~\cite{bardin2011content, marconi2003fundamentos}.
 
 \section{Data Presentation and Analysis}\label{DataPresentationandAnalysis}
-According to the online Course Guide, IFG offers three distinct undergraduate courses: Bachelor of Computer Science (BCC), Bachelor of Information Systems (BSI), and Technology in Analysis and Systems Development (TADS).
+
+According to the online Course Guide, IFG offers three distinct undergraduate courses: Bachelor of Computer Science (BCC), Bachelor of Information Systems (BSI), and Technology in Analysis and Systems Development (TADS)\footnote{Acronyms from Portuguese names.}.
 Table~\ref{tab_courses_summary} presents the basic features of these courses among the IFG units.
-\begin{table*}[!htbp]
+\begin{table*}[!h]
 \centering
 \caption{Summary of the IFG's Computer Science-related undergraduate courses.}
 \label{tab_courses_summary}
@@ -201,28 +203,17 @@ Uruaçu   & Technology & Analysis and Systems Development & 30 & 1809 & 2390 & n
 \end{tabular}%
 }
 \end{table*}
-The most recent course, the Technologist Course in Systems Analysis and Development (TADS) at the Uruaçu Campus, started in 2019.
-The oldest ones are the Bachelors in Information Systems (BSI) of Inhumas and Luziânia, both in 2013.
-The offer in the night shift prevailed, with the possibility of classes on Saturday mornings.
-The curricula justify this choice due to the possibility for students to combine work, internship and undergraduate classes.
+
+The most recent course is the TADS from Uruaçu, which started in 2019.
+The oldest ones are the BSI from Inhumas and Luziânia, and both started in 2013.
+The night shift prevails, with the possibility of classes on Saturday mornings.
+These courses curricula justify this choice due to the possibility for students to combine work, internship and undergraduate classes.
 
 The curricula indicated that the curricular internship was mandatory only for bachelor's degrees, which can be 400 or 450 hours, depending on the campus.
 In Technology's courses, the curricular internship of 200 hours is not mandatory, but it is recommended to improve and practice the studied knowledge.
-In addition to the hours of disciplines and internship, the activities
-complementary, ranging between 150 and 250 hours.
+In addition to the hours of disciplines and internship, mandatory complementary activities range between 150 and 250 hours.
 Thus, according to the curricula, the student must participate in extension courses, monitoring, research projects, seminars, and other academic events.
-Participation in such activities aims to ensure the opportunity to fulfill an academic experience and diversify their education.
-
-We identified three hundred and nine disciplines\footnote{Brazilian educational system considers that a course may have $n$ disciplines.} in the curricula of the seven undergraduate courses.
-Then, we analyzed the subjects under the following features: denomination, workload, syllabuses, and continuity.
-Considering these features, we disambiguated and homogenized these disciplines by adopting the most frequent denomination between subjects with similar syllabuses, workloads, and continuity.
-
-Each IFG unit had the autonomy to classify the curriculum disciplines in the so-called formative cores of the curricula.
-Such desired freedom of classification has produced distortions, probably related to a lack of communication between the units.
-Thus, we reclassified the disciplines in themes instead of the formative nucleus to make them consistent.
-After this analysis, seventy-seven grouped disciplines plus the mandatory final work remained.
-This theme-based classification could provide an uplifting overview of the workload distribution among the IFG units regarding the disciplines.
-Figure~\ref{fig_distribution} shows the distribution of disciplines and workload among the campuses, respectively.
+Such activities aim to ensure the opportunity to fulfill an academic experience and diversify their education.
 \begin{figure*}[!htbp]
     \centering
     \subfloat[\centering Disciplines distribution among the themes]{{\includegraphics[width=.475\textwidth]{Images/Fig01.png} }}%
@@ -240,15 +231,27 @@ Figure~\ref{fig_distribution} shows the distribution of disciplines and workload
     \caption{Amount of disciplines and workload by theme through the IFG campuses.}%
     \label{fig_themes}%
 \end{figure*}
+
+We identified three hundred and nine disciplines\footnote{Brazilian educational system considers that a course may have $n$ disciplines.} in the curricula of the seven undergraduate courses.
+Each IFG unit has the autonomy to design the curricula and classify disciplines in the so-called formative cores.
+Such autonomy is important and desired but has produced distortions, probably related to a lack of communication between the campuses.
+Thus, we analyzed these disciplines under the following features: denomination, workload, syllabuses, and continuity.
+Then, we reclassified the disciplines in themes instead of the formative nucleus to make them consistent and overcome the distortions.
+Considering these features, we disambiguated and homogenized these disciplines by adopting the most frequent denomination between subjects with similar syllabuses, workloads, and continuity.
+
+After this analysis, seventy-eight grouped disciplines remained.
+This theme-based classification could provide an uplifting overview of the workload distribution among the IFG units regarding the disciplines.
+Figure~\ref{fig_distribution} shows the distribution of disciplines and workload among the campuses, respectively.
+
 The technological formation leads both the workload and the disciplines amount among all the courses.
-Math formation is more present in the Bachelor in Computer Science (Anápolis) but closely followed by other courses, except for the courses on Analysis and Development of Systems in Formosa and Jataí, the latter with the minor workload in this theme.
-The humanistic formation stands out in Bachelor of Information Systems courses in Goiânia, Inhumas, and Luziânia, but also in the Analysis and Development of Systems in Uruaçu.
-Groundwork formation and complementary formation are balanced in all courses, except for the Bachelor in Computer Science course in Anápolis, with only one discipline for complementary formation.
-The highlights in math formation at the Bachelor in Computer Science (Anápolis) and humanistic formation at the Bachelors of Information Systems (Goiânia, Inhumas, and Luziânia) are expected, given the nature of these courses.
-If considering the workload (\ref{fig_themes}b) over the number of disciplines, the math formation is also more significant in Bachelor in Computer Science course in Anápolis.
-The workload for groundwork formation is relatively uniform except for some variation in Analysis and Development of Systems (Formosa) and Bachelors of Information Systems (Inhumas).
-The humanistic formation workload is also nearly uniform except for the Analysis and Development of Systems in Formosa.
-The most notable distortion is on the complementary formation in the Analysis and Development of Systems of Jataí due to the interdisciplinary projects.
+Math formation is more present in the BCC (Anápolis) but closely followed by other courses, except for the courses on TADS in Formosa and Jataí, the latter with the minor workload in this theme.
+The humanistic formation stands out in BSI courses in Goiânia, Inhumas, and Luziânia, but also in the TADS in Uruaçu.
+Groundwork formation and complementary formation are balanced in all courses, except for the BCC course in Anápolis, with only one discipline for complementary formation.
+The highlights on the number of disciplines (\ref{fig_themes}a) related to math formation at the BCC (Anápolis) and humanistic formation at the BSI (Goiânia, Inhumas, and Luziânia) are expected, given the nature of these courses.
+If considering the workload (\ref{fig_themes}b) over the number of disciplines, the math formation is also more significant in BCC in Anápolis.
+The workload for groundwork formation is relatively uniform except for some variation in TADS (Formosa) and Bachelors of Information Systems (Inhumas).
+The humanistic formation workload is also nearly uniform except for the TADS in Formosa.
+The most notable distortion is on the complementary formation in the TADS of Jataí due to the interdisciplinary projects.
 
 We have proposed ten specific characteristics that we consider essential in a course curriculum, and we check for their presence or absence in the IFG course curriculum.
 The result of this analysis is shown in Table~\ref{tab_features}.
@@ -263,7 +266,7 @@ The result of this analysis is shown in Table~\ref{tab_features}.
 Presence of discipline that addresses work relationships with local productive arrangements & Absent & Absent & Absent & Absent & Absent & Absent & Absent \\
 Presence of distance learning or blended disciplines & Absent & Absent & Absent & Absent & Present & Present & Present \\
 Presence of disciplines that address Environmental Education & Present & Present & Present & Present & Present & Present & Present \\
-Presence of discipline that addresses ethnic/sociocultural diversity & Present & Present & Present & Present & Present & Present & Present \\
+Presence of discipline that addresses ethnic/socio/cultural diversity & Present & Present & Present & Present & Present & Present & Present \\
 The curriculum meets the criteria and recommendations of the SBC Curriculum Reference. & Present & Present & Present & Present & Present & Present & Present \\
 The curriculum meets the criteria and recommendations of the Legal Basis (Resolutions and DCNs) & Present & Present & Present & Present & Present & Present & Present \\
 The workload curriculum prioritizes Technological/Specific Training disciplines & Absent & Present & Present & Present & Present & Present & Present \\
@@ -273,15 +276,12 @@ Strong computer science formation & Present & Absent & Absent & Absent & Absent 
 \end{tabular}%
 }
 \end{table*}
-
-
 \begin{figure*}[!htbp]
     \centering
     \includegraphics[width=.9\linewidth]{Images/Map.png}%
     \caption{A caption.}
     \label{fig_map}%
 \end{figure*}
-
 In 2018, the Goiás government produced the ``Goiás Integrated Economic Development Plan 2038 (PDEIG-2038)''~\cite{goias2038}.
 This document contains assumptions and development proposals for the state of Goiás, considering the period between 2018 and 2038.
 The document situates the state of Goiás in the Brazilian scenario and presents, among other data, regional trends and vocations to achieve some purposes.
@@ -289,12 +289,6 @@ These purposes are related to prosperity, quality of life, public sector efficie
 The Brazilian Institute of Geography and Statistics (IBGE)~\cite{ibge2020} organizes the state of Goiás into regions by grouping characteristics.
 One of these groups resulted in nine microregions: Center of Goiás, Metropolitan Region of Brasília, Metropolitan Region of Goiânia, North of Goiás, Northeast of Goiás, South of Goiás, Southeast of Goiás, Southwest of Goiás and West Goiás.
 The PDEIG-2038 establishes opportunities according to the type of economic activity in the microregions of Goiás~\cite{ibge2020}.
-% Escrever a vocação de cada microregião.
-
-% Estabelecer a relação entre as microregiões e a oferta de computacao do IFG.
-
-% Discutir o impacto do curriculo para a região, para o Brasil e para o mundo.
-
 
 According to the PDEIG-2038~\citep{goias2038}, the vocations of the northern region of Goiás are related to logistical infrastructure for national integration, ecological and adventure tourism, environmental services, mineral processing, integration of crops, livestock, and forestry.
 The Uruaçu campus is located in this region (see Figure~\ref{fig_map}), offering the TADS course.
@@ -318,9 +312,17 @@ The number of disciplines and workload related to the proposed themes balances t
 In jataí (southwest region of Goiás), the TADS course comprises the smallest number of disciplines in the technical area, but still a workload within the average of the others.
 The highlight of this course is the complementary training, with interdisciplinary projects with open menus that can provide an opportunity to integrate with the demands of the region.
 
-
-
 \section{Final Considerations}\label{FinalConsiderations}
+
+In general, course curricula correspond to both legal requirements and local demands.
+Improvements can be made, especially in the integration between similar course curricula.
+Greater integration can bring new perspectives in this dynamic area in addition to favoring academic mobility.
+
+The computing area proved to be resilient in terms of job offers, particularly in this COVID-19 pandemic, which boosted remote work, mainly in the area of systems development and data analysis.
+In this way, the formation of qualified labor can expand beyond the limits of the region of the course, keeping the professional in it and, consequently, fostering the local economy.
+
+In summary, we consider that the IFG's CS-related undergraduate courses partially converge with their purposes.
+On the other hand, they are articulated with the productive sectors and society in the region where they are offered.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{references}
