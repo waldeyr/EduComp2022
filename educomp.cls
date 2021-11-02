@@ -1895,7 +1895,8 @@
          \ifnum\acm@copyrightmode=15
             \@specialsection{Keywords}%
          \else
-            \@specialsection{Palavras-chave}%
+            %\@specialsection{Palavras-chave}%
+            \@specialsection{Keywords}%
          \fi
        \fi
          \noindent\@keywords}\par\egroup
